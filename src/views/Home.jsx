@@ -1,12 +1,48 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
 
 const Home = () => {
-  return (
-    <div>
-      <h1> JOSEP CORTÉS MAÑANICH</h1>
-      <h2>JUNIOR WEB DEVELOPER</h2> <h3>MERN, FULL STACK</h3>
-    </div>
-  )
-}
+  const [showH2, setShowH2] = useState('');
+  const [showH3, setShowH3] = useState('');
 
-export default Home
+  useEffect(() => {
+    const subtitle = 'JUNIOR DEVELOPER';
+    const subtitle2 = 'MERN FULL STACK';
+
+    let i = 0;
+    const timerH2 = setInterval(() => {
+      if (i < subtitle.length) {
+        setShowH2(subtitle.slice(0, i + 1));
+        i++;
+      } else {
+        clearInterval(timerH2);
+      }
+    }, 200);
+
+    let j = 0;
+    const timerH3 = setInterval(() => {
+      if (j < subtitle2.length) {
+        setShowH3(subtitle2.slice(0, j + 1));
+        j++;
+      } else {
+        clearInterval(timerH3);
+      }
+    }, 850);
+
+    return () => {
+      clearInterval(timerH2);
+      clearInterval(timerH3);
+    };
+  }, []);
+
+  return (
+    <div className='home-page'>
+      <div className='home-page-titles'>
+        <h1>JOSEP CORTÉS MAÑANICH</h1>
+        <h2>{showH2}</h2>
+        <h3>{showH3}</h3>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
