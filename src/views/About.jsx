@@ -1,7 +1,10 @@
 import React from 'react'
 
 
+
 function About() {
+  
+
   return (
     <div className='about'>
           <div className='about-me'>
@@ -24,8 +27,8 @@ function About() {
               </p>
               
           </div>
-          <div className='about-container'>
-
+          <div className='about-image'>
+              <img src="https://res.cloudinary.com/josepcortes/image/upload/v1664275799/FINALPROJECT/maz3tdkymgebb5mvjtnd.jpg" alt="" />
           </div>
     </div>
   )

@@ -129,3 +129,43 @@ p{
   font-size: 17px;
 }
 
+.about-image {
+  flex-direction: column;
+  margin-top: 12%;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+.about-image img{
+  width: 375px;
+  height: 375px;
+}
+
+
+/*SKills page*/
+
+.skills-container{
+  width: 97%;
+  height: 100vh;
+  display: flex;
+  
+}
+
+.skills{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  margin: auto;
+}
+
+.title1{
+  margin-left: 15%;
+}
+.title2{
+  margin-left:12%;
+}
+.skills-item h3,
+.skills-item h4{
+  color: white;
+}

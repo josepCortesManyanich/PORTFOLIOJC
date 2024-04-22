@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import About from './views/About'
 import Home from './views/Home';
 import Footer from './Components/Footer';
+import Skills from './views/Skills';
 
 
 function App() {
@@ -15,9 +16,9 @@ function App() {
               <Routes>
                 <Route path ='/' element ={<Home/>}/>
                 <Route path ='/About' element ={<About/>}/>
-                <Route path ='/Experiencia' element ={<About/>}/>
-                <Route path ='/Proyectos' element ={<About/>}/>
-                <Route path ='/Habilidades' element ={<About/>}/>
+                <Route path ='/Experiencie' element ={<About/>}/>
+                <Route path ='/Proyects' element ={<About/>}/>
+                <Route path ='/Skills' element ={<Skills/>}/>
               </Routes>
 
               <Footer/>

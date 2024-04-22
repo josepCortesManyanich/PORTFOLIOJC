@@ -7,11 +7,11 @@ function Navbar() {
         
         <nav>
             <ul>
-              
-                <li><NavLink to='/Habilidades'> Conocimientos</NavLink></li>
-                <li><NavLink to='/Experiencia'> Experiencia</NavLink></li>
-                <li><NavLink to='/Proyectos'> Proyects</NavLink></li>
-                <li><NavLink to='/About'> Sobre mi</NavLink></li>
+
+                <li><NavLink to='/'> Home</NavLink></li>
+                <li><NavLink to='/Experiencie'> Experiencie</NavLink></li>
+                <li><NavLink to='/Skills'> Skills</NavLink></li>
+                <li><NavLink to='/About'> About me</NavLink></li>
 
               
 
