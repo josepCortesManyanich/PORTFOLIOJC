@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar';
 import About from './views/About'
 import Home from './views/Home';
 import Skills from './views/Skills';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
           
 
         
-        
+              <Footer/>
         </div>
       
   );

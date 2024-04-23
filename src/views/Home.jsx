@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Skills from './Skills';
 import About from './About';
+import Experience from "./Experience";
 
 
 const Home = () => {
@@ -57,6 +58,10 @@ const Home = () => {
     <div className='home-skills'>
       <Skills/>
 
+    </div>
+
+    <div className='experience-skills'>
+      <Experience/>
     </div>
    
 

@@ -6,15 +6,15 @@ function About() {
   
 
   return (
-    <> 
-      <div className='title-about'>
-        <h1 >ABOUT ME</h1>
-      </div>
+    <div className='container'> 
+     
     
       <div className='about'>
            
             <div className='about-me'>
-
+                <div className='title-about'>
+                    <h1 >ABOUT ME</h1>
+                </div>
                 <p>
                     My name is Josep Cortes Mañanich, I am 27 years old, and I am a proactive person always willing to adapt to new changes. Some of these changes have driven my search for a new path in my professional career, which is web development. I build my projects with empathy, creativity, and total dedication to the challenges that arise.
                     
@@ -38,7 +38,7 @@ function About() {
                 <img src="https://res.cloudinary.com/josepcortes/image/upload/v1664275799/FINALPROJECT/maz3tdkymgebb5mvjtnd.jpg" alt="" />
             </div>
       </div>
-    </>
+    </div>
   )
 }
 
