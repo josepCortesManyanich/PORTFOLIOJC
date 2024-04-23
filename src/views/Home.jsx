@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Skills from './Skills';
+import About from './About';
 
 
 const Home = () => {
@@ -37,7 +39,9 @@ const Home = () => {
 
   return (
   
-    
+    <div>
+
+   
     <div className='home-page'>
       <div className='home-page-titles'>
         <h1>JOSEP CORTÉS MAÑANICH</h1>
@@ -45,10 +49,19 @@ const Home = () => {
         <h3>{showH3}</h3>
       </div>
     </div>
+
+    <div className='home-about'>
+      <About/>
+    </div>
+
+    <div className='home-skills'>
+      <Skills/>
+
+    </div>
    
 
 
-   
+    </div>
   );
 };
 
