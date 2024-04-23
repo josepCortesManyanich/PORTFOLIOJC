@@ -346,6 +346,18 @@ p {
 
 }
 
+/*ESTILOS VISTA EXPERIENCIA Y PROYECTOS*/
+
+.main-experience{
+  background-color: #000000;
+  width: 100%;
+  margin: auto;
+}
+.wrap-experience{
+  width: 85%;
+  margin: auto;
+}
+
 /*estilos proyectos*/
 
 .projects {
@@ -361,12 +373,13 @@ p {
 .projects h2 {
   color: white;
   text-align: center;
+  text-decoration: underline;
   font-size: 30px;
   letter-spacing: 3px;
 }
 
 .project-container {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -674,4 +687,60 @@ p {
   border-radius: 35%;
   color: #000000;
   background-color: white;
+}
+
+/*EXPERIENCIA Y BACKGROUND*/
+
+.wrapp{
+  width: 85%;
+  height: auto;
+  display: flex;
+  padding: 20px;
+  padding-top: 5%;
+  margin-left: 5%;
+}
+.experience{
+  padding-top:3%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience h2{
+ font-size: 30px;
+ color: white;
+ text-align: center;
+ text-decoration: underline;
+ letter-spacing: 3px;
+}
+
+.jobs{
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+.jobs ul{
+  margin-left:0 auto;
+}
+.tituloExperience{
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+
+
+.background{
+  padding-top:3%;
+  margin-left: 5%;
+  border: 1px solid white;
+}
+
+.background h2{
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 3px;
 }
