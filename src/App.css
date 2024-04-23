@@ -345,3 +345,74 @@ p {
   max-height: 125px;
 
 }
+
+/*estilos proyectos*/
+
+.projects {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects-item {
+  background-color: #000000;
+  border-radius: 10px;
+  border: 3px solid white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 350px;
+  height: 450px;
+}
+
+.item {
+  width: 100%;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.item ul {
+  padding: 0;
+  margin: 10px 0;
+}
+
+.item li {
+  font-size:16px;
+  padding-left:10px;
+  text-decoration: none;
+}
+
+.item button {
+  width: 80px;
+  border-radius: 15px;
+  cursor: pointer;
+  display: block; 
+  
+  margin: 20px auto; 
+  
+}
+
+.lenguajes {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  padding: 20px 20px 0; 
+  
+}
+
+.lenguajes p {
+  width: 75px;
+  text-align: center;
+  margin: 0;
+  border: 1px solid white;
+  border-radius: 35%;
+  color: #000000;
+  background-color: white;
+}
