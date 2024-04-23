@@ -3,14 +3,13 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import About from './views/About'
 import Home from './views/Home';
-import Footer from './Components/Footer';
 import Skills from './views/Skills';
 
 
 function App() {
   return (
     <div className='App'>
-          <div className="Layout">
+         
               <Navbar/>
             
               <Routes>
@@ -21,12 +20,12 @@ function App() {
                 <Route path ='/Skills' element ={<Skills/>}/>
               </Routes>
 
-              <Footer/>
-        
+          
+
         
         
         </div>
-        </div>
+      
   );
 }
 

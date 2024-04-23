@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
+
 const Home = () => {
   const [showH2, setShowH2] = useState('');
   const [showH3, setShowH3] = useState('');
@@ -26,7 +27,7 @@ const Home = () => {
       } else {
         clearInterval(timerH3);
       }
-    }, 850);
+    }, 300);
 
     return () => {
       clearInterval(timerH2);
@@ -35,6 +36,8 @@ const Home = () => {
   }, []);
 
   return (
+  
+    
     <div className='home-page'>
       <div className='home-page-titles'>
         <h1>JOSEP CORTÉS MAÑANICH</h1>
@@ -42,6 +45,10 @@ const Home = () => {
         <h3>{showH3}</h3>
       </div>
     </div>
+   
+
+
+   
   );
 };
 
