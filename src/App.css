@@ -86,6 +86,8 @@
 
 .home-page-titles {
   text-align: center; 
+  padding-bottom: 10%;
+  padding-left: 7%;
 }
 
 .home-page-titles h1 {
@@ -177,33 +179,91 @@ p {
 
 /*SKills page*/
 
-.skills-container{
-  width: 97%;
+.skills-container {
   display: flex;
-  
+  justify-content: center; 
 }
 
-.skills{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-}
-.skills-item{
-  margin-bottom: 15%;
-  display: flex;
-  flex-direction: row;
-}
-.skills-item img{
-
+.skills {
+  text-align: center;
 }
 
-.title1{
-  margin-left: 15%;
-  color: azure;
+.skills-item {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.skills h1{
+  margin-top: 50px;
+  color: white;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.title11{
+
+  color: white;
+  font-size: 20px;
 }
 .title2{
-  margin-left:12%;
-  color: azure;
+  margin-top: 10px;
+  color: white;
+  font-size: 18px;
 }
 
+
+.title1 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+
+
+
+.skills-item ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-item ul li {
+  margin: 0 5px;
+  height: 150px; /* Altura fija para todos los elementos li */
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+}
+
+.skills-item ul li img {
+  max-width: 100%; /* La imagen se ajustará al ancho del contenedor li */
+  max-height: 100%; /* La imagen se ajustará a la altura del contenedor li */
+}
+
+/* Establece el tamaño específico para cada imagen */
+.html-image {
+  width: 100px;
+  max-height: 70px; /* Mantiene la proporción de la imagen */
+}
+
+.css-image {
+  width: 85%;
+  max-height: 100%; /* Mantiene la proporción de la imagen */
+}
+
+.javascript-image {
+  width: 100px;
+  height: 90px; /* Mantiene la proporción de la imagen */
+}
+
+.mongo-image {
+  width: 200px;
+  max-height: 100px; /* Mantiene la proporción de la imagen */
+}
+
+.mysql-image {
+  width: 150px;
+  max-height: 100px; /* Mantiene la proporción de la imagen */
+}
