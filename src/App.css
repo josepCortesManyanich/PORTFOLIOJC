@@ -77,15 +77,15 @@
 
 .home-page {
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
+  justify-content: center; 
+  align-items: center; 
   min-height: 100vh;
   background-color: black;
-   /* Ajusta el tamaño para que ocupe toda la altura de la pantalla */
+  
 }
 
 .home-page-titles {
-  text-align: center; /* Centra el texto horizontalmente */
+  text-align: center; 
 }
 
 .home-page-titles h1 {
@@ -99,14 +99,14 @@
   font-size: 40px;
   color: white;
   margin: 0; 
-  margin-left: 45%;/* Elimina el margen predeterminado del h2 */
+  margin-left: 45%;
 }
 
 .home-page-titles h3 {
   font-size: 30px;
   color: white;
   margin: 0;
-  margin-left: 48%; /* Elimina el margen predeterminado del h3 */
+  margin-left: 48%; 
 }
 
 p {
@@ -141,7 +141,7 @@ p {
 
 .about {
   display: flex;
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan en filas */
+  flex-wrap: wrap; 
   width: 100%;
   margin-top: 10%;
   margin: auto;
@@ -168,11 +168,10 @@ p {
 }
 
 
-
 .about-image img {
-  width: 320px; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  width: 320px; 
   height: 350px;
-  margin-left: 35%; /* Mantén la proporción de la imagen */
+  margin-left: 35%; 
 }
 
 
