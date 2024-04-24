@@ -12,6 +12,8 @@ function Navbar() {
                 <li><NavLink to='/Experiencie'> Experiencie</NavLink></li>
                 <li><NavLink to='/Skills'> Skills</NavLink></li>
                 <li><NavLink to='/About'> About me</NavLink></li>
+                <li><NavLink to='/Curriculum'>Curriculum</NavLink></li>
+            
 
               
 

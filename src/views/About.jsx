@@ -35,7 +35,7 @@ function About() {
                 
             </div>
             <div className='about-image'>
-                <img src="https://res.cloudinary.com/josepcortes/image/upload/v1664275799/FINALPROJECT/maz3tdkymgebb5mvjtnd.jpg" alt="" />
+                <img src="https://res.cloudinary.com/josepcortes/image/upload/v1713915044/Captura_desde_2024-04-24_00-00-29_bk09ne.png" alt="" />
             </div>
       </div>
     </div>

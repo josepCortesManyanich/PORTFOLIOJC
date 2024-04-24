@@ -6,6 +6,7 @@ import Home from './views/Home';
 import Skills from './views/Skills';
 import Footer from './Components/Footer';
 import Experience from './views/Experience';
+import Curriculum from './Components/Curriculum';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
                 <Route path ='/Experiencie' element ={<Experience/>}/>
                 <Route path ='/Proyects' element ={<About/>}/>
                 <Route path ='/Skills' element ={<Skills/>}/>
+                <Route path ='/Curriculum' element ={<Curriculum/>}/>
               </Routes>
 
           

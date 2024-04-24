@@ -17,7 +17,7 @@ return (
                                         <h4 className='tituloExperience'>AGENCIA GRÁFICA GELIS: NOVEMBER 2023 - JANUARY 2024.  </h4>
                                         <ul>
                                             <li><p>Workplace: Collaborator.  Senior in charge: Pere Gelis, phone number 699230125</p></li>
-                                            <li><p>Website: www.gelis.cat.</p></li>
+                                            <li><p>Website: <a href="https://www.gelis.cat/es/home-2/">www.gelis.cat.</a> </p></li>
                                             <li><p>My job was to assist in developing route distribution in the backend for smoother website functionality. Additionally, I conducted testing for a shopping cart in a potential e-commerce platform.</p></li>
                                         </ul>
                                 </li>
@@ -26,7 +26,7 @@ return (
                                         <h4 className='tituloExperience'>BIOS URN: APRIL 2023- SEPTEMBER 2023.  </h4> 
                                         <ul>
                                             <li><p>Workplace: Collaborator. Senior in charge: Pere Cortés, phone number 628836801</p></li>
-                                            <li><p>Website: www.urnabios.com.</p></li>
+                                            <li><p>Website: <a href="https://urnabios.com/es/urna/">www.urnabios.com.</a> </p></li>
                                             <li><p>My job was to collaborate in website maintenance, layout design for newsletters.</p></li>
                                         </ul>
                                 </li>
