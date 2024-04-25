@@ -1,13 +1,14 @@
 import React from 'react'
+import { useTheme } from '../Components/ThemeContext'
 
 const Experience = () => {
-  
+    const { white } = useTheme();  
   
   
   
 return (
-    <div className='main-experience'>
-        <div className='wrap-experience'>   
+    <div className={`main-experience ${white ? 'light-mode' : 'dark-mode'}`}>
+        <div className={`wrapp-experience ${white ? 'light-mode' : 'dark-mode'}`}>   
             <div className='wrapp'>
                 <div className='experience'>
                     <h2> IT EXPERIENCE</h2>
@@ -64,7 +65,7 @@ return (
 
 
 
-                <div className='projects'>
+                <div className={`projects ${white ? 'light-mode' : 'dark-mode'}`}>
                     <h2>SOME THINGS I'VE BUILT</h2>
                     <div className='project-container'> 
                         <ul className='projects-list'>

@@ -2,11 +2,16 @@ import React, { useEffect, useState } from 'react';
 import Skills from './Skills';
 import About from './About';
 import Experience from "./Experience";
+import ThemeContext from '../Components/ThemeContext';
+import { useContext } from 'react';
 
 
 const Home = () => {
   const [showH2, setShowH2] = useState('');
   const [showH3, setShowH3] = useState('');
+  const context = useContext(ThemeContext);
+
+  const white = context ? context.white : false
 
   useEffect(() => {
     const subtitle = 'JUNIOR DEVELOPER';
@@ -43,7 +48,7 @@ const Home = () => {
     <div>
 
     
-    <div className='home-page'>
+    <div className={`home-page ${white ? 'light-mode' : 'dark-mode'}`}>
       <div>
         
       </div>
@@ -54,11 +59,11 @@ const Home = () => {
       </div>
     </div>
 
-    <div className='home-about'>
+    <div className={`home-about ${white ? 'light-mode' : 'dark-mode'}`}>
       <About/>
     </div>
 
-    <div className='home-skills'>
+    <div className={`home-skills ${white ? 'light-mode' : 'dark-mode'}`}>
       <Skills/>
 
     </div>

@@ -1,12 +1,14 @@
+
 import React from 'react'
+import { useTheme } from '../Components/ThemeContext';
 
 
 
 function About() {
-  
+  const { white } = useTheme(); 
 
   return (
-    <div className='container'> 
+    <div className= {`container ${white ? 'light-mode' : 'dark-mode'}`} > 
      
     
       <div className='about'>

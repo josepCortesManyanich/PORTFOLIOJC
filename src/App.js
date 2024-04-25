@@ -1,39 +1,42 @@
-import {Routes, Route} from 'react-router-dom'
+
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar';
-import About from './views/About'
+import About from './views/About';
 import Home from './views/Home';
 import Skills from './views/Skills';
 import Footer from './Components/Footer';
 import Experience from './views/Experience';
 import Contact from './views/Contact';
-import { useState } from 'react';
-import Toogle from './Components/Toggle';
-
+import { ThemeProvider } from './Components/ThemeContext' 
+import { useContext } from 'react';
+import ThemeContext from './Components/ThemeContext'
 
 function App() {
-  const[dark , setDark] = useState(true)
+
+  const context = useContext(ThemeContext);
+
+  const white = context ? context.white : false  
+
+
   return (
-    <div className={`App ${dark ? 'dark-mode' : 'light-mode'}`}>
-       
-              <Navbar dark={dark}/>
-            
-              <Routes>
-                <Route path ='/' element ={<Home/>}/>
-                <Route path ='/About' element ={<About/>}/>
-                <Route path ='/Experiencie' element ={<Experience/>}/>
-                <Route path ='/Proyects' element ={<About/>}/>
-                <Route path ='/Skills' element ={<Skills/>}/>
-                <Route path ='/Contact' element ={<Contact/>}/>
-              </Routes>
-
-          
-
+    <ThemeProvider> 
+      <div className={`App ${white ? 'light-mode' : 'dark-mode'}`}>
         
-              <Footer/>
-              <Toogle dark={dark} setDark={setDark}/>
-        </div>
-      
+            <Navbar />
+            <Routes>
+              <Route path='/' element={<Home />} />
+              <Route path='/About' element={<About />} />
+              <Route path='/Experience' element={<Experience />} />
+              <Route path='/Projects' element={<About />} />
+              <Route path='/Skills' element={<Skills />} />
+              <Route path='/Contact' element={<Contact />} />
+            </Routes>
+            <Footer />
+        
+      </div>
+    </ThemeProvider>
   );
 }
 
