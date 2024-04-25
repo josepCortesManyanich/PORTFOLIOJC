@@ -430,28 +430,33 @@ input:checked + .slider:before {
 
 .title-projects {
   text-align: center; /* Centra el contenido del div */
-  margin-bottom: 20px; /* Añade un margen inferior para separar el título del resto del contenido */
+  margin-bottom: 20px;
+  z-index:9999 /* Añade un margen inferior para separar el título del resto del contenido */
 }
 
 .title-projects h2 {
-  margin: 0; /* Elimina el margen predeterminado del h2 */
+  margin: 0;
+  /* Elimina el margen predeterminado del h2 */
 }
 
 .card {
   width: 700px;
-  height: 600px;
+  height: 650px;
   perspective: 1000px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  padding-top: 18%;
-}
-.card h3{
-  display: flex;
-  flex-direction: column;
+  padding-top: 12%;
 }
 
+.card-contains{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
 .card-inner {
   width: 100%;
   height: 100%;
@@ -555,10 +560,16 @@ input:checked + .slider:before {
 }
 
 .right-swipe{
+  display: flex;
+  align-items: center;
   margin-left: 5%;
+  padding-top: 5%;
 }
 .left-swipe{
+  display: flex;
   margin-right:5%;
+  align-items: center;
+  padding-top: 5%;
 }
 
 /*EXPERIENCIA Y BACKGROUND*/

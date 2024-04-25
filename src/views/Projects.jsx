@@ -12,13 +12,14 @@ function Projects  () {
 
     return(
         <div className={`swiper-container ${white ? 'light-mode' : 'dark-mode'}`} >
-               <div className="title-projects"><h2 >SOME THINGS I HAVE BUILT</h2></div>
         <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
         <div>
-         
+            
                 
           <SwiperSlide>
                     <div className="card">
+                    <div className="title-projects"><h2 >SOME THINGS I HAVE BUILT</h2></div>
+                        <div className="card-contains">
                         <div className="card-inner">
                                     <div className="card-front">
                                     <img src="https://res.cloudinary.com/josepcortes/image/upload/v1713903761/Captura_desde_2024-04-23_22-22-14_cy15fe.png" alt="" /> 
@@ -40,6 +41,7 @@ function Projects  () {
                                
                         </div>
                         <h3 className="right-swipe">SWIPE RIGHT</h3>   
+                        </div>
                     </div>
 
             
@@ -48,6 +50,8 @@ function Projects  () {
                           
             <SwiperSlide>
                             <div className="card">
+                            <div className="title-projects"><h2 >SOME THINGS I HAVE BUILT</h2></div>
+                            <div className="card-contains">
                                 <h3 className="left-swipe">SWIPE LEFT</h3>        
                                     <div className="card-inner">
                                                 <div className="card-front">
@@ -68,13 +72,18 @@ function Projects  () {
                                                     <div className="lenguajes"> <p>TAILWIND</p> <p>JS</p> <p>REACT</p> <p>MONGO</p> <p>NODE</p></div>
                                                 </div>
                                         </div>
-                                    <h3 className="right-swipe">SWIPE RIGHT</h3>   
+                                    <h3 className="right-swipe">SWIPE RIGHT</h3>  
+                                    </div>    
+
                                 </div>
             </SwiperSlide>
 
             <SwiperSlide>
                             <div className="card">
-                                <h3 className="left-swipe">SWIPE LEFT</h3>  
+                               
+                                <div className="title-projects"><h2 >SOME THINGS I HAVE BUILT</h2></div>
+                                 <div className="card-contains">
+                                        <h3 className="left-swipe">SWIPE LEFT</h3>
                                         <div className="card-inner">
                                                 <div className="card-front">
                                                 <img src="https://res.cloudinary.com/josepcortes/image/upload/v1713897737/Captura_desde_2024-04-23_20-39-34_nycop4.png" alt="" /> 
@@ -95,12 +104,17 @@ function Projects  () {
                                                     <div className="lenguajes"> <p>HTML5</p> <p>CSS3</p> <p>JS</p> <p>MONGO</p> <p>NODE</p></div>
                                                 </div>
                                         </div>
-                                    <h3 className="right-swipe">SWIPE RIGHT</h3>   
-                                </div>
+                                        
+                                    <h3 className="right-swipe">SWIPE RIGHT</h3>  
+                                    </div>
+                                    </div>   
+                                
             </SwiperSlide>
 
             <SwiperSlide>
                             <div className="card">
+                                <div className="title-projects"><h2 >SOME THINGS I HAVE BUILT</h2></div>
+                                 <div className="card-contains">
                                 <h3 className="left-swipe">SWIPE LEFT</h3>    
                                     <div className="card-inner">
                                                 <div className="card-front">
@@ -122,12 +136,15 @@ function Projects  () {
                                                 </div>
                                     </div>
                                 <h3 className="right-swipe">SWIPE RIGHT</h3>   
+                                </div>    
                             </div>
             </SwiperSlide>
 
             <SwiperSlide>
                             <div className="card">
-                                <h3 className="left-swipe">SWIPE LEFT</h3>   
+                                <div className="title-projects"><h2 >SOME THINGS I HAVE BUILT</h2></div>
+                                 <div className="card-contains">
+                                     <h3 className="left-swipe">SWIPE LEFT</h3>   
                                     <div className="card-inner">
                                                 <div className="card-front">
                                                 <img src="https://res.cloudinary.com/josepcortes/image/upload/v1713895785/Captura_desde_2024-04-23_20-09-09_wwttu9.png" alt="" /> 
@@ -147,6 +164,7 @@ function Projects  () {
                                                     <div className="lenguajes"> <p>HTML5</p> <p>CSS3</p> <p>JS</p></div>
                                                 </div>
                                     </div>
+                                </div>    
                             </div>
             </SwiperSlide>
                           
