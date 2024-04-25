@@ -51,7 +51,7 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  margin-left: 35%;
+  margin-left: 15%;
   margin-right: 65%;
   margin-top: 2%;
 }
@@ -107,6 +107,7 @@
 
 
 .switch input {
+
   opacity: 0;
   width: 0;
   height: 0;
@@ -116,6 +117,7 @@
 .slider {
   position: absolute;
   cursor: pointer;
+  border: 1px solid;
   top: 0;
   left: 0;
   right: 0;
@@ -403,15 +405,27 @@ input:checked + .slider:before {
 .main-experience{
   width: 100%;
   margin: auto;
+  height: 100vh;
   
 }
-.wrap-experience{
+.wrapp-experience{
   width: 85%;
   margin: auto;
-  padding-top: 7%;
+  padding-top: 10%;
+
 }
 
 /*estilos proyectos*/
+.swiper-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.mySwiper {
+  width: 100%;
+  
+}
 
 .projects {
   display: flex;
@@ -488,233 +502,10 @@ input:checked + .slider:before {
   margin: 20px auto;
 }
 
-.lenguajes {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 20px 0;
-}
 
-.lenguajes p {
-  width: 75px;
-  text-align: center;
-  margin: 0;
-  border: 1px solid ;
-  border-radius: 35%;
 
- 
-}
 
-/*Segundo proyecto*/
-.projects-item1 {
-  border-radius: 10px;
-  border: 3px solid ;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  width: 280px; /* Ajuste del ancho */
-  height: 590px; /* Ajuste de la altura */
-}
 
-.item1 {
-  width: 100%;
-}
-
-.item1 img {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-}
-
-.item1 ul {
-  padding: 0;
-  margin: 10px 0;
-}
-
-.item1 li {
-  font-size: 14px; /* Tamaño de fuente reducido */
-  padding-left: 10px;
-  text-decoration: none;
-}
-
-.item1 button {
-  width: 70px; /* Ancho del botón reducido */
-  border-radius: 15px;
-  cursor: pointer;
-  display: block;
-  margin: 15px auto; /* Espacio reducido */
-}
-
-.lenguajes1 {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid ;
-  padding: 15px 20px 0; /* Ajuste del espacio superior */
-  padding-bottom: 15px; /* Espacio reducido */
-}
-
-.lenguajes1 p {
-  width: 60px; /* Ancho reducido */
-  text-align: center;
-  margin: 0 5px;
-  margin-right: 1%;
-  border: 1px solid ;
-  border-radius: 35%;
-
-}
-
-/*Estilos proyecto3*/
-.projects-item2 {
-
-  border-radius: 10px;
-  border: 3px solid;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  width: 350px; 
-  height: 557px;
-} 
-
-.item2 {
-  width: 100%;
-}
-
-.item2 img {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-}
-
-.item2 ul {
-  padding: 0;
-  margin: 10px 0;
-}
-
-.item2 li {
-  font-size: 14px; /* Tamaño de fuente reducido */
-  padding-left: 10px;
-  text-decoration: none;
-}
-
-.item2 button {
-  width: 70px; /* Ancho del botón reducido */
-  border-radius: 15px;
-  cursor: pointer;
-  display: block;
-  margin: 15px auto; /* Espacio reducido */
-}
-
-.lenguajes2 {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid ;
-  padding: 15px 20px 0; /* Ajuste del espacio superior */
-  padding-bottom: 15px; /* Espacio reducido */
-}
-
-.lenguajes2 p {
-  width: 70px; /* Ancho reducido */
-  text-align: center;
-  margin: 0 5px;
-  margin-right: 1%;
-  border: 1px solid ;
-  border-radius: 35%;
-
-}
-
-/*Estilos 3 proyecto*/
-
-.projects-item3 {
-  border-radius: 10px;
-  border: 3px solid ;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  width: 350px; /* Ajuste del ancho */
-  height: 447px; /* Ajuste de la altura */
-}
-
-.item3 {
-  width: 100%;
-}
-
-.item3 img {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-}
-
-.item3 ul {
-  padding: 0;
-  margin: 10px 0;
-}
-
-.item3 li {
-  font-size: 14px; 
-  padding-left: 10px;
-  text-decoration: none;
-}
-
-.item3 button {
-  width: 70px;
-  border-radius: 15px;
-  cursor: pointer;
-  display: block;
-  margin: 15px auto; 
-}
-
-.lenguajes3 {
-  display: flex;
-  justify-content: space-between;
-  border-top: 1px solid ;
-  padding: 15px 20px 0; 
-  padding-bottom: 15px; 
-}
-
-.lenguajes3 p {
-  width: 70px; /* Ancho reducido */
-  text-align: center;
-  margin: 0 5px;
-  margin-right: 1%;
-  border: 1px solid;
-  border-radius: 35%;
-
-}
-
-/*Cuarto proyeecto*/
-
-.projects-item4 {
-
-  border-radius: 10px;
-  border: 3px solid ;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  width: 350px; 
-  height: 467px; 
-  justify-content: flex-start;
-}
-
-.item4 {
-  width: 100%;
-  justify-content: flex-start;
-}
-
-.item4 img {
-  width: 100%;
-  border-radius: 10px 10px 0 0;
-}
-
-.item4 ul {
-  padding: 0;
-  margin: 10px 0;
-}
-
-.item4 li {
-  font-size: 14px; 
-  padding-left: 10px;
-  text-decoration: none;
-}
-
-.item4 button {
-  width: 70px;
-  border-radius: 15px;
-  cursor: pointer;
-  display: block;
-  margin: 15px auto; 
-}
 
 .lenguajes {
   display: flex;
@@ -922,3 +713,4 @@ input:checked + .slider:before {
   transform: translateX(100%);
   box-shadow: inset 15px -4px 0px 15px #fff000;
 }
+
