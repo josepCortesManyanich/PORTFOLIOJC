@@ -42,8 +42,11 @@ const Home = () => {
   
     <div>
 
-   
+    
     <div className='home-page'>
+      <div>
+        
+      </div>
       <div className='home-page-titles'>
         <h1>JOSEP CORTÉS MAÑANICH</h1>
         <h2>{showH2}</h2>

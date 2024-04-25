@@ -6,14 +6,17 @@ import Home from './views/Home';
 import Skills from './views/Skills';
 import Footer from './Components/Footer';
 import Experience from './views/Experience';
-import Curriculum from './Components/Curriculum';
+import Contact from './views/Contact';
+import { useState } from 'react';
+import Toogle from './Components/Toggle';
 
 
 function App() {
+  const[dark , setDark] = useState(true)
   return (
-    <div className='App'>
-         
-              <Navbar/>
+    <div className={`App ${dark ? 'dark-mode' : 'light-mode'}`}>
+       
+              <Navbar dark={dark}/>
             
               <Routes>
                 <Route path ='/' element ={<Home/>}/>
@@ -21,13 +24,14 @@ function App() {
                 <Route path ='/Experiencie' element ={<Experience/>}/>
                 <Route path ='/Proyects' element ={<About/>}/>
                 <Route path ='/Skills' element ={<Skills/>}/>
-                <Route path ='/Curriculum' element ={<Curriculum/>}/>
+                <Route path ='/Contact' element ={<Contact/>}/>
               </Routes>
 
           
 
         
               <Footer/>
+              <Toogle dark={dark} setDark={setDark}/>
         </div>
       
   );

@@ -10,7 +10,7 @@ return (
         <div className='wrap-experience'>   
             <div className='wrapp'>
                 <div className='experience'>
-                    <h2>EXPERIENCE</h2>
+                    <h2> IT EXPERIENCE</h2>
                         <div className='jobs'>
                             <ul>
                                 <li> 
