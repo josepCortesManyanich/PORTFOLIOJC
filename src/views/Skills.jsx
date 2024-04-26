@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTheme } from '../Components/ThemeContext';
+import Coverparticles from '../Components/Coverparticles';
 
 const Skills = () => {
 const { white } = useTheme(); 
@@ -7,6 +8,7 @@ const { white } = useTheme();
   return (
 
     <div className={`skills-container ${white ? 'light-mode' : 'dark-mode'}`}>
+        <Coverparticles/>
         <div className='skills'>
                 <h1>MY SKILLS</h1>
                 <h3 className='title11'>I love to learn new things and experiment with new technologies.</h3>

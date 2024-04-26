@@ -1,5 +1,6 @@
 import React from 'react'
 import { useTheme } from '../Components/ThemeContext'
+import Coverparticles from '../Components/Coverparticles';
 
 function Experience  () {
     const { white } = useTheme();  
@@ -9,6 +10,7 @@ function Experience  () {
   
 return (
     <div className={`main-experience ${white ? 'light-mode' : 'dark-mode'}`}>
+        <Coverparticles/>
         <div className={`wrapp-experience ${white ? 'light-mode' : 'dark-mode'}`}>   
             <div className='wrapp'>
                 <div className='experience'>

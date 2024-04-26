@@ -12,6 +12,7 @@ import { ThemeProvider } from './Components/ThemeContext'
 import { useContext } from 'react';
 import ThemeContext from './Components/ThemeContext'
 import Projects from './views/Projects';
+import Coverparticles from './Components/Coverparticles';
 
 function App() {
 
@@ -23,7 +24,7 @@ function App() {
   return (
     <ThemeProvider> 
       <div className={`App ${white ? 'light-mode' : 'dark-mode'}`}>
-        
+        <Coverparticles/>
             <Navbar />
             <Routes>
               <Route path='/' element={<Home />} />

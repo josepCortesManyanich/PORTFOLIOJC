@@ -3,6 +3,7 @@ import { useTheme } from '../Components/ThemeContext';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
+import Coverparticles from '../Components/Coverparticles';
 import SwiperCore from 'swiper'
 SwiperCore.use([Navigation]);
 
@@ -17,6 +18,7 @@ function Projects  () {
             
                 
           <SwiperSlide>
+          <Coverparticles/>
                     <div className="card">
                     <div className="title-projects"><h2 >SOME THINGS I HAVE BUILT</h2></div>
                         <div className="card-contains">

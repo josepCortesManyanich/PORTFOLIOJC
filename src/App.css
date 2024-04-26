@@ -311,7 +311,7 @@ input:checked + .slider:before {
 .map-box{
   width: 400px;
   height: 300px;
- 
+  z-index: 99999;
 }
 
 .map{

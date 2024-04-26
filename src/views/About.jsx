@@ -1,6 +1,7 @@
 
 import React from 'react'
 import { useTheme } from '../Components/ThemeContext';
+import Coverparticles from '../Components/Coverparticles';
 
 
 
@@ -9,7 +10,7 @@ function About() {
 
   return (
     <div className= {`container ${white ? 'light-mode' : 'dark-mode'}`} > 
-     
+      <Coverparticles/>
     
       <div className='about'>
            
