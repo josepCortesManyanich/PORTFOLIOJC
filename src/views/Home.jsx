@@ -4,6 +4,7 @@ import About from './About';
 import Experience from "./Experience";
 import ThemeContext from '../Components/ThemeContext';
 import { useContext } from 'react';
+import Projects from './Projects';
 
 
 const Home = () => {
@@ -45,7 +46,7 @@ const Home = () => {
 
   return (
   
-    <div>
+    <div className='main-home'>
 
     
     <div className={`home-page ${white ? 'light-mode' : 'dark-mode'}`}>
@@ -63,14 +64,22 @@ const Home = () => {
       <About/>
     </div>
 
+
+    <div className={`home-projects ${white ? 'light-mode' : 'dark-mode'}`}>
+      <Projects/>
+    </div>
+
     <div className={`home-skills ${white ? 'light-mode' : 'dark-mode'}`}>
       <Skills/>
 
     </div>
 
-    <div className='experience-skills'>
+    <div className={`home-experience ${white ? 'light-mode' : 'dark-mode'}`}>
       <Experience/>
     </div>
+
+
+
    
 
 

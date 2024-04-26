@@ -36,8 +36,17 @@ function About() {
                 </p>
                 
             </div>
-            <div className='about-image'>
-                <img src="https://res.cloudinary.com/josepcortes/image/upload/v1713915044/Captura_desde_2024-04-24_00-00-29_bk09ne.png" alt="" />
+            <div className='information-box'>
+                    <h3> Personal information</h3>
+                    <ul>
+                        <li><p><strong>Mail: </strong>Josepcortes6@gmail.com</p></li>
+                        <li><p><strong>Phone:</strong> +34 643 705 774</p></li>
+                        <li><p><strong>City: </strong>Barcelona</p></li>
+                        <li><p><strong>Address: </strong>Bacardi Street 49-51</p></li>
+                        <li><p><strong>Postal code:</strong> 08028</p></li>
+                    </ul>
+
+                    
             </div>
       </div>
     </div>
