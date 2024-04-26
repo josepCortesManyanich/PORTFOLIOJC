@@ -8,7 +8,6 @@ import Home from './views/Home';
 import Skills from './views/Skills';
 import Footer from './Components/Footer';
 import Experience from './views/Experience';
-import Contact from './views/Contact';
 import { ThemeProvider } from './Components/ThemeContext' 
 import { useContext } from 'react';
 import ThemeContext from './Components/ThemeContext'
@@ -31,7 +30,6 @@ function App() {
               <Route path='/About' element={<About />} />
               <Route path='/Experience' element={<Experience />} />
               <Route path='/Skills' element={<Skills />} />
-              <Route path='/Contact' element={<Contact />} />
               <Route path='/Projects' element={<Projects/>}/>
             </Routes>
             <Footer />

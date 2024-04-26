@@ -36,18 +36,24 @@ function About() {
                 </p>
                 
             </div>
-            <div className='information-box'>
-                    <h3> Personal information</h3>
-                    <ul>
-                        <li><p><strong>Mail: </strong>Josepcortes6@gmail.com</p></li>
-                        <li><p><strong>Phone:</strong> +34 643 705 774</p></li>
-                        <li><p><strong>City: </strong>Barcelona</p></li>
-                        <li><p><strong>Address: </strong>Bacardi Street 49-51</p></li>
-                        <li><p><strong>Postal code:</strong> 08028</p></li>
-                    </ul>
+            <div className='information-container'>
+                <div className='information-box'>
+                        <h3> Personal information</h3>
+                        <ul>
+                            <li><p><strong>Mail: </strong>Josepcortes6@gmail.com</p></li>
+                            <li><p><strong>Phone:</strong> +34 643 705 774</p></li>
+                            <li><p><strong>City: </strong>Barcelona</p></li>
+                            <li><p><strong>Address: </strong>Bacardi Street 49-51</p></li>
+                            <li><p><strong>Postal code:</strong> 08028</p></li>
+                        </ul>
 
-                    
+
+                </div>
+                <div className='map-box'>
+                  <iframe className='map' title='mapa' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.9395277932217!2d2.1253464977132155!3d41.37307181080187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4988d97e41dfd%3A0x73841e7866594f8f!2sCarrer%20de%20Bacard%C3%AD%2C%20Sants-Montju%C3%AFc%2C%2008028%20Barcelona!5e0!3m2!1ses!2ses!4v1714135036648!5m2!1ses!2ses"></iframe>
+                </div>
             </div>
+            
       </div>
     </div>
   )
