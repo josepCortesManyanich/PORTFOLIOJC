@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { useCallback, useEffect, useState } from "react";
+import {  useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 // import { loadAll } from "@/tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
 // import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
@@ -53,7 +53,7 @@ function Coverparticles() {
                             quantity: 4,
                         },
                         repulse: {
-                            distance: 200,
+                            distance: 100,
                             duration: 0.4,
                         },
                     },
@@ -66,7 +66,7 @@ function Coverparticles() {
                         color: {
                            value: white ? "#8A2BE2" : "#FFFF00"
                         },
-                        distance: 150,
+                        distance: 50,
                         enable: true,
                         opacity: 0.5,
                         width: 1,
@@ -84,7 +84,7 @@ function Coverparticles() {
                     number: {
                         density: {
                             enable: true,
-                            area: 800,
+                            area: 2000,
                         },
                         value: 80,
                     },

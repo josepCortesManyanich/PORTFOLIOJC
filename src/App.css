@@ -34,7 +34,7 @@
   height: 105px;
   justify-content: flex-end;
   align-items: center;
-  background-color: rgb(56, 57, 58);
+  background-color: rgb(80, 81, 82);
   border-bottom: 1px solid white;
 
   
@@ -193,7 +193,7 @@ input:checked + .slider:before {
 .home-page-titles h2 {
   font-size: 40px;
   margin: 0; 
-  margin-left: 45%;
+  margin-left: 35%;
 }
 
 .home-page-titles h3 {
@@ -734,3 +734,111 @@ input:checked + .slider:before {
   box-shadow: inset 15px -4px 0px 15px #fff000;
 }
 
+
+
+@media (max-width : 450px) and (max-height : 980px){
+  
+  .App{
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: auto;
+ 
+}
+
+.light-mode{
+  background-color: #fff;
+  border:  black;
+  color: black;
+  list-style: none;
+}
+
+.dark-mode{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: white;
+  list-style: none;
+}
+
+
+
+
+/*Proyectos*/
+.swiper-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+ /* Centrar verticalmente */
+}
+
+.mySwiper {
+  width: 100%;
+}
+.title-projects {
+  margin-top: 5%;
+  font-size: 14px; /* Reducido el tamaño de fuente */
+}
+
+.card {
+  width: 80%; /* Ajustado para ocupar el ancho completo */
+  max-width: none; /* Asegurado que no haya un máximo */
+  padding-top: 10%; /* Reducido el espacio superior */
+  margin-bottom: 20px; 
+  margin-top: 10%;/* Añadido espacio inferior */
+}
+
+.card-inner {
+  margin: auto; /* Centra horizontalmente */
+  margin-top: 20%;
+  height: 350px;
+  width: 400px; /* Cambiado para adaptarse al contenido */
+}
+
+.card-front,
+.card-back {
+  border: 3px solid; /* Reducido el tamaño del borde */
+}
+
+.card-front {
+  font-size: 12px; /* Reducido el tamaño de fuente */
+}
+
+.card-back {
+  font-size: 12px; /* Reducido el tamaño de fuente */
+}
+
+.card-back li {
+  font-size: 12px; /* Reducido el tamaño de fuente */
+}
+
+.card-back button {
+  width: 60px; /* Reducido el tamaño del botón */
+  height: 30px; /* Reducido el tamaño del botón */
+  margin: 10px auto; /* Ajustado el espacio alrededor del botón */
+}
+
+.button-git {
+  width: 60px; /* Reducido el tamaño del botón */
+  height: 40px; /* Reducido el tamaño del botón */
+  margin: 10px auto; /* Ajustado el espacio alrededor del botón */
+  margin-left: 40%; /* Ajustado el margen izquierdo */
+}
+
+.lenguajes p {
+  font-size: 12px; /* Reducido el tamaño de fuente */
+  width: 60px; /* Reducido el ancho */
+}
+
+.right-swipe,
+.left-swipe {
+  margin-left: 5%; /* Eliminado el margen izquierdo */
+  margin-right: 5%; /* Eliminado el margen derecho */
+  justify-content: center; /* Centrado */
+  padding-top: 4%; /* Reducido el espacio superior */
+}
+
+  
+}  
+/* EXPERIENCE*/
+  

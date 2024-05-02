@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Skills from './Skills';
 import About from './About';
 import Experience from "./Experience";
@@ -8,13 +8,14 @@ import Projects from './Projects';
 import Coverparticles from '../Components/Coverparticles';
 
 const Home = () => {
-
+  /*
   const [showH2, setShowH2] = useState('');
   const [showH3, setShowH3] = useState('');
+  */
   const context = useContext(ThemeContext);
 
   const white = context ? context.white : false
-
+  /*
   useEffect(() => {
     const subtitle = 'JUNIOR DEVELOPER';
     const subtitle2 = 'MERN FULL STACK';
@@ -44,6 +45,7 @@ const Home = () => {
       clearInterval(timerH3);
     };
   }, []);
+  */
 
   return (
   
@@ -56,8 +58,8 @@ const Home = () => {
       </div>
       <div className='home-page-titles'>
         <h1>JOSEP CORTÉS MAÑANICH</h1>
-        <h2>{showH2}</h2>
-        <h3>{showH3}</h3>
+        <h2>JUNIOR WEB DEVELOPER</h2>
+        <h3>FULL STACK</h3>
       </div>
     </div>
 
