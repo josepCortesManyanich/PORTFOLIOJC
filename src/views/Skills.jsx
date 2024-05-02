@@ -29,7 +29,7 @@ const { white } = useTheme();
                 <h3 className='title1'>Frameworks & Technologies</h3>
                 <ul>
                     <li><img className='react-image' alt='REACT' src='https://res.cloudinary.com/josepcortes/image/upload/v1713891708/Captura_desde_2024-04-23_18-48-42-removebg-preview_pqytoy.png' /></li> 
-                    <li><img className='tailwind-image'alt='TAILWIND' src='https://res.cloudinary.com/josepcortes/image/upload/v1713891904/Captura_desde_2024-04-23_19-03-56-removebg-preview_c9dagt.png' /></li>
+                    <li><img className='tailwind-image'alt='TAILWIND' src='https://res.cloudinary.com/josepcortes/image/upload/v1714690106/Captura_desde_2024-04-23_19-03-56-removebg-preview_kgruq3.png' /></li>
                     <li><img className='bootstrap-image' alt='BOOTSTRAP' src='https://res.cloudinary.com/josepcortes/image/upload/v1713891738/Captura_desde_2024-04-23_18-49-15-removebg-preview_vmtsmx.png' /></li>
                     <li><img className='node-image' alt='NODE' src='https://res.cloudinary.com/josepcortes/image/upload/v1713892107/Captura_desde_2024-04-23_19-07-30_dk58j0.png' /></li>
                     <li><img className='express-image' alt='EXPRESS' src='https://res.cloudinary.com/josepcortes/image/upload/v1713891236/Captura_desde_2024-04-23_18-49-54_j2rk39.png' /></li>
