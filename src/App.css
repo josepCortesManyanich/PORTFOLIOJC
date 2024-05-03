@@ -40,7 +40,9 @@
 
   
 }
-
+.disclosure-button{
+  display: none;
+}
 .header nav{
  flex-grow: 1;
  align-items: center;
@@ -763,6 +765,11 @@ input:checked + .slider:before {
 
 
 
+.header nav {
+  display: none; /* Ocultar la lista de enlaces por defecto en dispositivos más pequeños */
+
+}
+
 
 
 /*Home*/
@@ -813,7 +820,7 @@ input:checked + .slider:before {
   width: 100%;
   border-bottom: 1px solid;
   padding-bottom: 20px; 
-  margin-bottom: 20px; 
+  margin-bottom: 10px; 
 }
 /*Skills*/
 .skills-container {

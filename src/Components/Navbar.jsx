@@ -2,11 +2,16 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTheme } from './ThemeContext' 
 
+
 function Navbar() {
   const { white, toggleTheme } = useTheme(); 
+ 
+
+
   return (
     <div className={`header ${white ? 'light-mode' : 'dark-mode'}`}>
-      <nav>
+         
+      <nav >
         <ul>
           <li><NavLink to="/"> Home</NavLink></li>
           <li><NavLink to="/About"> About </NavLink></li>
@@ -17,6 +22,7 @@ function Navbar() {
         
         </ul>
       </nav>
+  
       <label class="switch">
             <input type="checkbox"
              onChange={toggleTheme}/>
