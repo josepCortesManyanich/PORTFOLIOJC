@@ -513,12 +513,20 @@ input:checked + .slider:before {
   transform: rotateY(180deg);
 }
 
-.card-front,
+.card-front{
+  margin-top: 10%;
+  position:absolute;
+  width: 480px;
+  height: 350px;
+  backface-visibility: hidden;
+}
+
 .card-back {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 480px;
+  height: 470px;
   backface-visibility: hidden;
+  margin-top: 10%;
 }
 
 .card-front {
@@ -533,7 +541,7 @@ input:checked + .slider:before {
 }
 
 .card-front img{
-  width: 100%;
+  width: 480px;
   height: 100%;
 }
 
@@ -542,7 +550,7 @@ input:checked + .slider:before {
   flex-direction: column;
   border: 10px solid;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 14px;
   transform: rotateY(180deg);
 }
 
@@ -553,25 +561,18 @@ input:checked + .slider:before {
 }
 .card-title-back{
   text-align: center;
-  font-size: 23;
+  font-size: 16px;
   font-weight: bold;
   text-decoration: underline;
 }
 .card-back li{
-  margin-top: 10px;
-  padding-top: 5px;
-  font-size: 20px;
+  margin-top: 5px;
+  padding-top: 2.5px;
+  font-size: 15px;
   padding-left: 10px;
 
 }
 
-.card-back button{
-    width: 75px;
-    height: 40px;
-    border-radius: 15px;
-    cursor: pointer;
-    margin: 20px auto;
-}
 .git-box{
   border-top:2px solid;
   border-bottom: 2px solid;
@@ -1094,6 +1095,12 @@ input:checked + .slider:before {
 .card-front,
 .card-back {
   border: 3px solid; 
+  width: 350px;
+  height: 350px;
+}
+.card-front img{
+  width: 350px;
+  height: 350px;
 }
 
 .card-front {
@@ -1128,12 +1135,10 @@ input:checked + .slider:before {
 
 .right-swipe,
 .left-swipe {
-  margin-left: 5%; 
-  margin-right: 5%; 
-  justify-content: center; 
-  padding-top: 4%; 
+  display: none;
 }
 
+/*Experience*/
 .main-experience {
   width: 100%;
   margin: auto;

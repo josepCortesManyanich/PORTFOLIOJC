@@ -48,6 +48,36 @@ function Projects  () {
 
             
             </SwiperSlide>
+
+            <SwiperSlide>
+                            <div className="card">
+                            <div className="title-projects"><h2 >SOME THINGS I HAVE BUILT</h2></div>
+                            <div className="card-contains">
+                                <h3 className="left-swipe">SWIPE LEFT</h3>        
+                                    <div className="card-inner">
+                                                <div className="card-front">
+                                                <img src="https://res.cloudinary.com/josepcortes/image/upload/v1714738909/Captura_desde_2024-05-03_14-20-12_bwsyya.png" alt="" /> 
+                                                </div>
+                                                <div className="card-back">
+                                                    <ul>
+                                                        <li className="card-title-back">PERSONAL PORTFOLIO</li>
+                                                        <li><p>- My own portfolio </p></li>
+                                                        <li><p>- Portfolio, built from scratch. </p></li>
+                                                        <li><p>-User, also can see all my personal information, projects, experience and my educational background.</p></li>
+                                                        <li><p>Link to github repository:</p></li>
+                                                    </ul>
+
+                                                    <div className="git-box">
+                                                        <a href="https://github.com/josepCortesManyanich/PROYECTOFRONTEND"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
+                                                    </div>
+                                                    <div className="lenguajes"> <p>CSS3</p> <p>JS</p> <p>REACT</p></div>
+                                                </div>
+                                        </div>
+                                    <h3 className="right-swipe">SWIPE RIGHT</h3>  
+                                    </div>    
+
+                                </div>
+            </SwiperSlide>
             
                           
             <SwiperSlide>
