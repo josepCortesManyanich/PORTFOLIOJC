@@ -35,67 +35,91 @@
   height: 105px;
   justify-content: flex-end;
   align-items: center;
-  background-color: rgb(80, 81, 82);
-  border-bottom: 1px solid white;
-
-  
-}
-.disclosure-button{
-  display: none;
-}
-.header nav{
- flex-grow: 1;
- align-items: center;
- height: auto;
-
-
-}
-.header nav ul{
-  display: flex;
   flex-direction: row;
-  list-style: none;
-  margin-left: 15%;
-  margin-right: 25%;
-  margin-top: 2%;
+
 }
-
-.header nav li{
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding: 25px;
-  width: 105px;
-  
-}
-
-
-
-.header nav a{
-  width: 100%;
-  text-decoration: none;
-  color: rgb(227, 230, 233);
+.menu-wrapper{
   position: relative;
 }
+
+.menu-box{
+ position: absolute;
+ top: calc(100%);
+ left:0;
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+ border: 1px solid;
+ z-index: 1000;
+ width: 125px;
+ outline: 2px solid #ffffff;
+ 
+}
+
+.menu-item{
+  padding: 10px;
+  border-bottom: 1px solid;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+.menu-item1{
+  padding: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+
+.navbar-button{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 127px;
+  gap:0.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size:20px ;
+  line-height:1.5 ;
+  font-weight: 600;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  box-shadow:0 0 2px 1px rgba(255, 255, 255, 0.1) ;
+  outline: none;
+  text-transform: uppercase;
+  border: 1px solid;
+  margin-top: 15px;
+  margin-right: 15px
   
-
-
-.header nav a::after {
-  content: ''; 
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0; 
-  height: 4px; 
-  background-color: rgb(236, 236, 236); 
-  transition: width 0.3s; 
+}
+.navbar-button:hover {
+  background-color: #777776; /* Color de fondo al pasar el ratón */
 }
 
-.header nav li:hover a::after {
-  width: 100%; 
+.navbar-button[aria-expanded="true"] {
+  outline: 2px solid #ffffff;
+
+
 }
+
+.navbar-button:focus {
+  outline: 2px solid transparent; /* Estilo de contorno al enfocar */
+}
+
+.navbar-button:focus-white {
+  outline: 10px solid #ffffff; /* Color de contorno al enfocar */
+}
+
+
+
+
 
 /*BOTON WHITE MODE*/
 .switch {

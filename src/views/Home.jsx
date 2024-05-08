@@ -63,23 +63,23 @@ const Home = () => {
       </div>
     </div>
 
-    <div className={`home-about ${white ? 'light-mode' : 'dark-mode'}`}>
+    
       <About/>
-    </div>
+   
 
 
-    <div className={`home-projects ${white ? 'light-mode' : 'dark-mode'}`}>
+    
       <Projects/>
-    </div>
+   
 
-    <div className={`home-skills ${white ? 'light-mode' : 'dark-mode'}`}>
+   
       <Skills/>
 
-    </div>
+   
 
-    <div className={`home-experience ${white ? 'light-mode' : 'dark-mode'}`}>
+   
       <Experience/>
-    </div>
+    
 
 
 
