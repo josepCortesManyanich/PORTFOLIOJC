@@ -11,6 +11,8 @@
     "@tsparticles/fireworks": "^3.3.0",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
+    "hamburger-react": "^2.5.0",
+    "hamburgers": "^1.2.1",
     "particles.js": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
