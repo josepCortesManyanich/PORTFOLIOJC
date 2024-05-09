@@ -5,9 +5,6 @@ import Coverparticles from '../Components/Coverparticles';
 function Experience  () {
     const { white } = useTheme();  
 
-  
-  
-  
 return (
     <div className={`main-experience ${white ? 'light-mode' : 'dark-mode'}`}>
         <Coverparticles/>
@@ -64,12 +61,6 @@ return (
                 </div>
 
             </div>
-
-
-
-
-            
-                
         </div>
     </div>
   )

@@ -1,9 +1,5 @@
 import React, { createContext, useState, useContext } from 'react';
-
-
 const ThemeContext = createContext();
-
-
 export const ThemeProvider = ({ children }) => {
   const [white, setWhite] = useState(false);
 
@@ -18,7 +14,7 @@ export const ThemeProvider = ({ children }) => {
   );
 };
 
-
 export const useTheme = () => useContext(ThemeContext);
 
 export default ThemeContext;
+

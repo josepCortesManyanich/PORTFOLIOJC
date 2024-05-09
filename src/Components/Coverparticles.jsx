@@ -103,5 +103,4 @@ function Coverparticles() {
         />
   )
 }
-
 export default Coverparticles

@@ -55,29 +55,10 @@ const Home = () => {
         <img src='https://res.cloudinary.com/josepcortes/image/upload/v1715262542/IMG_6048-removebg-preview_ga7qeu.png ' alt='' />
       </div>
     </div>
-
-    
       <About/>
-   
-
-
-    
       <Projects/>
-   
-
-   
       <Skills/>
-
-   
-
-   
       <Experience/>
-    
-
-
-
-   
-
 
     </div>
   );

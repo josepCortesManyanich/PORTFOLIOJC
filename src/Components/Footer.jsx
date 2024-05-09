@@ -8,7 +8,6 @@ function Footer() {
       <div className='footer-box'>
         <h3> PORTFOLIO PERSONAL JOSEP CORTÉS MAÑANICH/ 2024 </h3>
       </div>
-
     </div>
   )
 }

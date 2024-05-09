@@ -205,8 +205,7 @@ function Projects  () {
         </Swiper>
 
     
-      </div>  
-       
+      </div>     
 
     )
 }
