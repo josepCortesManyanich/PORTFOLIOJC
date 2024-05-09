@@ -35,9 +35,9 @@ function Navbar() {
       </label>
 
       <div className='logo-wrapper'>
-          <img src='https://res.cloudinary.com/josepcortes/image/upload/v1715209744/Captura_desde_2024-05-09_01-06-39-removebg-preview_1_ijyzzo.png' alt=''/>
+          <img src='https://res.cloudinary.com/josepcortes/image/upload/v1715263026/Captura_desde_2024-05-09_01-06-39-removebg-preview_1_qwouq6.png' alt=''/>
       </div>
-      
+
       <Menu>
           <div className='menu-wrapper'>
             <Menu.Button    className={`navbar-button ${white ? 'light-mode' : 'dark-mode'}`}><Hamburger  toggled={isOpen} toggle={setOpen} /></Menu.Button>

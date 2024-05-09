@@ -45,13 +45,14 @@ const Home = () => {
       <Coverparticles/> 
     
     <div className={`home-page ${white ? 'light-mode' : 'dark-mode'}`}>
-      <div>
-        
-      </div>
+    
       <div className='home-page-titles'>
         <h1>JOSEP CORTÉS MAÑANICH</h1>
         <h2>FULL STACK, WEB DEVELOPER</h2>
        
+      </div>
+      <div className='home-page-image'>
+        <img src='https://res.cloudinary.com/josepcortes/image/upload/v1715262542/IMG_6048-removebg-preview_ga7qeu.png ' alt='' />
       </div>
     </div>
 

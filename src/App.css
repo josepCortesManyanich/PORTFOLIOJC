@@ -223,11 +223,25 @@ input:checked + .slider:before {
   
 }
 
+.home-page-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.home-page-image img{
+  width: 350px;
+  height: 570px;
+  padding-bottom: 18%;
+  margin-right: 5%
+  
+}
+
 .home-page-titles {
   text-align: center; 
-  margin-left: 15%;
   padding-bottom: 10%;
-  padding-left: 20%;
+  padding-left: 5%;
 
 }
 
@@ -240,7 +254,7 @@ input:checked + .slider:before {
 .home-page-titles h2 {
   font-size: 35px;
   margin: 0; 
-  padding-left: 120px;
+  padding-left: 50px;
   margin-left: 40px;
 }
 
@@ -820,12 +834,31 @@ input:checked + .slider:before {
   border-bottom: 1px solid;
   margin-top: 30px; 
   width: 100%;
+  margin: 0 auto;
+}
+
+.home-page-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.home-page-image img{
+  width: 350px;
+  height: 420px;
+  margin: 0 auto;
+  padding-right: 15%;
+  margin-bottom: 5%;
+  margin-right: 5%;
 }
 
 .home-page-titles {
   text-align: center;
-  padding-bottom: 10%; 
-  padding-left: 0; 
+  width: 80%;
+  padding-top: 20%;
+
+  margin-left: 10%; 
 }
 
 .home-page-titles h1 {
@@ -849,7 +882,108 @@ input:checked + .slider:before {
   width: 100%;
 }
 
+/*NAVBAR*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
 
+.images-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.images-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.github-navbar {
+  width: 45px;
+  height: 35px;
+  border-radius: 35%;
+}
+
+.menu-wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: 17%;
+  margin-top: 1%;
+}
+.menu-box {
+  position: absolute;
+  top: calc(100%);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 1000;
+  width: 125px;
+}
+
+.menu-item,
+.menu-item1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item1 {
+  padding-bottom: 10px;
+}
+
+.menu-item:hover,
+.menu-item1:hover {
+  background-color: #777776;
+}
+
+.navbar-button:focus {
+  outline: 2px solid transparent;
+}
+
+.logo-wrapper {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+.logo-wrapper img {
+  width: 60px;
+  height: 50px;
+}
+
+.switch {
+  margin-left: 7%;
+  font-size: 17px;
+  width: 3.5em;
+  height: 2em;
+  position: relative;
+}
+.slider{
+  width: 60px;
+}
 
 /*Skills*/
 .skills-container {
@@ -1292,53 +1426,168 @@ input:checked + .slider:before {
   
   /*Navbar*/
   
-  
-  
-  .header nav {
-    display: none; /* Ocultar la lista de enlaces por defecto en dispositivos más pequeños */
-  
-  }
-  
-  
-  
-  /*Home*/
-  
-  .home-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; 
-    min-height: 100vh;
-    border-bottom: 1px solid;
-    margin-top: 30px; 
-    width: 100%;
-  }
-  
-  .home-page-titles {
-    text-align: center;
-    padding-bottom: 10%; 
-    padding-left: 5%; 
-  }
-  
-  .home-page-titles h1 {
-    font-size: 35px; 
-    margin: 0;
-  }
-  
-  .home-page-titles h2 {
-    font-size: 20px; 
-    margin: 0;
-  }
-  
 
-  
-  .main-home {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  
+/*Home*/
+
+.home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  min-height: 100vh;
+  border-bottom: 1px solid;
+  margin-top: 30px; 
+  width: 100%;
+  margin: 0 auto;
+}
+
+.home-page-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+
+.home-page-image img{
+  width: 350px;
+  height: 420px;
+  margin: 0 auto;
+  padding-right: 15%;
+  margin-bottom: 5%;
+  margin-right: 5%;
+}
+
+.home-page-titles {
+  text-align: center;
+  width: 80%;
+  padding-top: 20%;
+
+  margin-left: 10%; 
+}
+
+.home-page-titles h1 {
+  font-size: 25px; 
+  margin: 0;
+}
+
+.home-page-titles h2 {
+  font-size: 20px; 
+  margin: 0;
+}
+
+.home-page-titles h3 {
+  font-size: 24px; 
+  margin: 0;
+}
+
+.main-home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/*NAVBAR*/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.images-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.images-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.github-navbar {
+  width: 45px;
+  height: 35px;
+  border-radius: 35%;
+}
+
+.menu-wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: 17%;
+  margin-top: 1%;
+}
+.menu-box {
+  position: absolute;
+  top: calc(100%);
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 1000;
+  width: 125px;
+}
+
+.menu-item,
+.menu-item1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-item1 {
+  padding-bottom: 10px;
+}
+
+.menu-item:hover,
+.menu-item1:hover {
+  background-color: #777776;
+}
+
+.navbar-button:focus {
+  outline: 2px solid transparent;
+}
+
+.logo-wrapper {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 1%;
+}
+
+.logo-wrapper img {
+  width: 60px;
+  height: 50px;
+}
+
+.switch {
+  margin-left: 7%;
+  font-size: 17px;
+  width: 3.5em;
+  height: 2em;
+  position: relative;
+}
+.slider{
+  width: 60px;
+}
   
   
   /*Skills*/
@@ -1756,3 +2005,755 @@ input:checked + .slider:before {
   
 }
 
+@media only screen and (min-width: 1100px) and (max-width: 1700px){
+  .App{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+   
+  }
+  
+  .light-mode{
+    background-color: #f1e9e9;
+    border:  black;
+    color: black;
+    list-style: none;
+  }
+  
+  .dark-mode{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border: white;
+    list-style: none;
+  }
+  
+  
+  
+  /*Estilos del navbar*/
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    margin: auto;
+    height: 105px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  
+  }
+  
+  .images-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+  
+  .images-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem; 
+    
+  }
+  
+  .github-navbar{
+    width: 45px;
+    height: 35px;
+    border-radius: 35%;
+  }
+  .menu-wrapper{
+    position: relative;
+    margin-left: auto;
+    margin-right: 6%;
+    margin-top: 1%;
+  
+  }
+  
+  .menu-box{
+   position: absolute;
+   top: calc(100%);
+   left:0;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+   z-index: 1000;
+   width: 125px;
+  
+   
+  }
+  
+  .menu-item{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+  
+  }
+  .menu-item1{
+    padding: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .navbar-button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+   
+    
+  }
+  
+  .menu-item:hover {
+    background-color: #777776;
+  }
+  .menu-item1:hover {
+    background-color:#777776 ;
+  }
+  
+  
+  .navbar-button:focus {
+    outline: 2px solid transparent; 
+  }
+  
+  .logo-wrapper{
+    position: relative;
+    margin-left: 55%;
+    margin-right: 3%;
+    margin-top: 1%;
+  }
+  
+  .logo-wrapper img{
+    width: 80px;
+    height: 70px;
+  }
+  
+  
+  /*BOTON WHITE MODE*/
+  .switch {
+    margin-left: 7%;
+    font-size: 17px;
+    width: 3.5em;
+    height: 2em;
+    position: relative;
+   
+  }
+  
+  
+  .switch input {
+  
+    opacity: 0;
+    width: 0;
+    height: 0;
+  
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    transition: .5s;
+    border-radius: 30px;
+    width: 60px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 15%;
+    box-shadow: inset 8px -4px 0px 0px #fff000;
+    background: var(--background);
+    transition: .5s;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(100%);
+    box-shadow: inset 15px -4px 0px 15px #fff000;
+  }
+  
+  /*estilos footer*/
+  
+  .footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-top: 1px solid;
+  }
+  
+  .footer-box {
+    width: 100%;
+    display: flex; 
+  }
+  
+  .footer-box h3 {
+    font-size: 12px;
+    margin-left: 80%; 
+   
+  }
+  
+  
+  /*Estilos home-page*/
+  
+  .home-page {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 900px;
+    border-bottom: 1px solid ;
+    
+  }
+  
+  .home-page-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .home-page-image img{
+    width: 350px;
+    height: 570px;
+    padding-bottom: 18%;
+    margin-right: 5%
+    
+  }
+  
+  .home-page-titles {
+    text-align: center; 
+    padding-bottom: 10%;
+    padding-left: 5%;
+  
+  }
+  
+  .home-page-titles h1 {
+    font-size: 60px;
+    margin: 0;
+  
+  }
+  
+  .home-page-titles h2 {
+    font-size: 35px;
+    margin: 0; 
+    padding-left: 50px;
+    margin-left: 40px;
+  }
+  
+  
+  
+  .main-home{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  
+  /*Estilos about me*/
+  .container {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .title-about {
+    max-height: 100px;
+    padding-top: 10%;
+  }
+  
+  .title-about h1 {
+    letter-spacing: 7px;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  
+  .about {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    margin-top: 2%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+  
+  .about-me{
+    flex:1;
+    max-width: 40%;
+    padding-left: 10%;
+    align-items: center;
+  }
+  
+  .about-me{
+    text-align: justify;
+  }
+  .information-container{
+    flex: 1;
+    max-width: 55%;
+    align-items: center;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+    margin-top: 1%;
+  }
+  
+  
+  .information-box {
+    border: 1px solid ; 
+    border-radius: 10px; 
+    width: 370px;
+    padding: 20px; 
+    margin-bottom: 15px;
+  }
+  .information-box h3{
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .information-box ul {
+    padding: 0;
+    list-style: none;
+  
+  }
+  
+  .information-box li {
+    margin-bottom: 10px; 
+    padding-left: 25px;
+  }
+  
+  .map-box{
+    width: 400px;
+    height: 300px;
+    z-index: 99999;
+  }
+  
+  .map{
+    width: 100%;
+    height: 100%;
+    border:1px solid;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*SKills page*/
+  
+  .skills-container {
+    border-top: 1px solid;
+    display: flex;
+    justify-content: center; 
+  
+    padding-top: 20px;
+   
+  }
+  
+  .skills {
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  .skills-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .skills h1{
+    margin-top: 50px;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  
+  .title11{
+  
+    font-size: 20px;
+  }
+  .title2{
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  
+  .title1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  .skills-item ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-item ul li {
+    margin: 0 5px;
+    height: 150px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .skills-item ul li img {
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+  
+  /*estilos imagenes*/
+  
+  .html-image {
+    width: 100px;
+    max-height: 70px; 
+  
+  }
+  
+  .css-image {
+    width: 85%;
+    max-height: 100%; 
+  }
+  
+  .javascript-image {
+    width: 100px;
+    height: 90px; 
+  }
+  
+  .mongo-image {
+    width: 200px;
+    max-height: 100px; 
+  }
+  
+  .mysql-image {
+    width: 150px;
+    max-height: 100px; 
+  }
+  
+  .react-image {
+    width: 200px;
+    max-height: 120px;
+  }
+  
+  .tailwind-image{
+    width: 100px;
+    max-height: 80px;
+  }
+  
+  .bootstrap-image{
+    width: 85px;
+    max-height: 100px;
+  }
+  .node-image{
+    width: 150px;
+    max-height: 70px;
+  }
+  .express-image{
+    width: 170px;
+    max-height: 150px;
+  
+  }
+  .git-image{
+    width: 100px;
+    max-height: 125px;
+  }
+  .vbox-image{
+    width: 100px;
+    max-height: 125px;
+  
+  }
+  
+  
+  
+  
+  /*estilos proyectos*/
+  .swiper-container {
+    width: 100%;
+    height: 870px;
+    border-top: 1px solid;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .mySwiper {
+    width: 85%;
+    
+  }
+  
+  .title-projects {
+    text-align: center; 
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+    
+  }
+  
+  .title-projects h2 {
+    margin: 0;
+  
+  }
+  
+  .card {
+    width: 700px;
+    height: 670px;
+    perspective: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 12%;
+   
+  }
+  
+  .card-contains{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.999s;
+  }
+  
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .card-front{
+    margin-top: 10%;
+    position:absolute;
+    width: 480px;
+    height: 350px;
+    backface-visibility: hidden;
+  }
+  
+  .card-back {
+    position: absolute;
+    width: 480px;
+    height: 470px;
+    backface-visibility: hidden;
+    margin-top: 10%;
+  }
+  
+  .card-front {
+  
+    display: flex;
+    align-items: center;
+    border: 10px solid;
+    border-radius: 10px;
+    justify-content: center;
+    font-size: 24px;
+    transform: rotateY(0deg);
+  }
+  
+  .card-front img{
+    width: 480px;
+    height: 100%;
+  }
+  
+  .card-back {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid;
+    border-radius: 10px;
+    font-size: 14px;
+    transform: rotateY(180deg);
+  }
+  
+  .card-back ul{
+    padding: 0;
+    margin: 10px 0;
+    list-style: none;
+  }
+  .card-title-back{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .card-back li{
+    margin-top: 5px;
+    padding-top: 2.5px;
+    font-size: 15px;
+    padding-left: 10px;
+  
+  }
+  
+  .git-box{
+    border-top:2px solid;
+    border-bottom: 2px solid;
+  }
+  .button-git{
+    width: 90px;
+    height: 60px;
+    border-radius: 15px;
+    margin:20px auto;
+    margin-left:42%
+    
+  }
+  
+  .lenguajes {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid ;
+    padding: 15px 20px 0; 
+    padding-bottom: 15px; 
+  }
+  
+  .lenguajes p {
+    font-size: 20px;
+    width: 80px; 
+    text-align: center;
+    margin: 0 5px;
+    margin-right: 1%;
+    border: 1px solid ;
+    border-radius: 35%;
+  
+  }
+  
+  .right-swipe{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-bottom:5%
+  }
+  .left-swipe{
+    display: flex;
+    margin-right:5%;
+    align-items: center;
+    padding-top: 5%;
+  }
+  
+  /*EXPERIENCIA Y BACKGROUND*/
+  .main-experience{
+    width: 100%;
+    margin: auto;
+    height: 95%;
+    border-top: 1px solid;
+    
+  }
+  .wrapp-experience{
+    width: 85%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+  
+  
+  .wrapp{
+    width: 85%;
+    height: auto;
+    display: flex;
+    padding: 20px;
+    padding-top: 5%;
+    margin-left: 5%;
+  }
+  .experience{
+    padding-top:3%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experience h2{
+   font-size: 30px;
+   text-align: center;
+   text-decoration: underline;
+   letter-spacing: 3px;
+  }
+  
+  .jobs{
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style: none;
+  
+  }
+  .jobs-list{
+    list-style: none;
+  }
+  .jobs-item{
+    list-style: none;
+  }
+  
+  .tituloExperience{
+   
+    text-decoration: underline;
+  }
+  
+  .background{
+    padding-top:3%;
+    margin-left: 5%;
+    border: 1px solid ;
+    padding-bottom: 5%;
+    
+  }
+  
+  
+  .education{
+    list-style: none;
+  }
+  
+  .background p{
+    text-align: justify;
+    padding-right: 5%;
+    margin-right: 2%;
+    
+  }
+  
+  .background h2{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 3px;
+  }
+  
+  
+  
+  
+  
+  
+  
+
+}
