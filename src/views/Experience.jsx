@@ -41,7 +41,7 @@ return (
                 <div className='background'>
                         <h2>EDUCATIONAL BACKGROUND</h2>
                         <div className='background-container'>
-                        <ul>
+                        <ul className='education'>
                                 <li> 
                                         <h4 className='tituloExperience'>IRONHACK BOOTCAMP, WEB DEVELOPER, MARCH 2022- OCTOBER 2022  </h4>
                                         <ul>
