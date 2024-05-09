@@ -36,7 +36,7 @@ function Projects  () {
                                         </ul>
 
                                         <div className="git-box">
-                                            <a href="https://github.com/josepCortesManyanich/Project-1"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
+                                            <a href="https://github.com/josepCortesManyanich/Movies_FrontEnd" target="_blank"  rel="noreferrer"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
                                         </div>
                                         <div className="lenguajes"> <p>HTML5</p> <p>CSS3</p> <p>JS</p> <p>REACT</p> <p>MONGO</p> <p>NODE</p></div>
                                     </div>
@@ -68,7 +68,7 @@ function Projects  () {
                                                     </ul>
 
                                                     <div className="git-box">
-                                                        <a href="https://github.com/josepCortesManyanich/PROYECTOFRONTEND"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
+                                                        <a href="https://github.com/josepCortesManyanich/PORTFOLIOJC" target="_blank"  rel="noreferrer"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
                                                     </div>
                                                     <div className="lenguajes"> <p>CSS3</p> <p>JS</p> <p>REACT</p></div>
                                                 </div>
@@ -99,7 +99,7 @@ function Projects  () {
                                                     </ul>
 
                                                     <div className="git-box">
-                                                        <a href="https://github.com/josepCortesManyanich/PROYECTOFRONTEND"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
+                                                        <a href="https://github.com/josepCortesManyanich/PROYECTOFRONTEND" target="_blank"  rel="noreferrer"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
                                                     </div>
                                                     <div className="lenguajes"> <p>TAILWIND</p> <p>JS</p> <p>REACT</p> <p>MONGO</p> <p>NODE</p></div>
                                                 </div>
@@ -131,7 +131,7 @@ function Projects  () {
                                                     </ul>
 
                                                     <div className="git-box">
-                                                        <a href="https://github.com/josepCortesManyanich/proyecto2"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
+                                                        <a href="https://github.com/josepCortesManyanich/proyecto2" target="_blank" rel="noreferrer"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
                                                     </div>
                                                     <div className="lenguajes"> <p>HTML5</p> <p>CSS3</p> <p>JS</p> <p>MONGO</p> <p>NODE</p></div>
                                                 </div>
@@ -154,7 +154,7 @@ function Projects  () {
                                                 </div>
                                                 <div className="card-back">
                                                     <ul>
-                                                        <li className="card-title-back">BRR CBD</li>
+                                                        <li className="card-title-back">BACARDI HOME-TASKS</li>
                                                         <li><p>- -Personal project. To do list </p></li>
                                                         <li><p>- Improved clasical to do list, about home tasks. And builded with a backend.</p></li>
                                                         <li><p>-In order to make a control with my girlfriend on the home tasks. Can create,delete and update a task</p></li>
@@ -162,7 +162,7 @@ function Projects  () {
                                                     </ul>
 
                                                     <div className="git-box">
-                                                        <a href="https://github.com/josepCortesManyanich/PROYECTOFRONTEND"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
+                                                        <a href="https://github.com/josepCortesManyanich/Task-list" target="blank"  rel="noreferrer"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
                                                     </div>
                                                     <div className="lenguajes"> <p>HTML5</p> <p>CSS3</p> <p>JS</p> <p>MONGO</p> <p>NODE</p></div>
                                                 </div>
@@ -191,7 +191,7 @@ function Projects  () {
                                                     </ul>
 
                                                     <div className="git-box">
-                                                        <a href="https://github.com/josepCortesManyanich/Project-1"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
+                                                        <a href="https://github.com/josepCortesManyanich/Project-1" target="blank"  rel="noreferrer"><img className="button-git" src="https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg" alt="" /></a>
                                                     </div>
                                                     <div className="lenguajes"> <p>HTML5</p> <p>CSS3</p> <p>JS</p></div>
                                                 </div>

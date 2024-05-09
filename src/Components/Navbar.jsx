@@ -19,10 +19,10 @@ function Navbar() {
          <div className='images-wrapper'>
           <ul className='images-list'>
             <li>
-                <NavLink to='https://github.com/josepCortesManyanich'> <img  className= 'github-navbar' src='https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg' alt=''/></NavLink>
+                <NavLink to='https://github.com/josepCortesManyanich' target='_blank'> <img  className= 'github-navbar' src='https://res.cloudinary.com/josepcortes/image/upload/v1713896520/64e79ca5aff2fb7295bfddf9_github-que-es_vwvfsc.jpg' alt=''/></NavLink>
             </li>
             <li>
-            <NavLink to='https://www.linkedin.com/in/josepcortes96/'> <img  className= 'github-navbar' src='https://res.cloudinary.com/josepcortes/image/upload/v1715193228/descarga_bsktrn.png' alt=''/></NavLink>
+            <NavLink to='https://www.linkedin.com/in/josepcortes96/' target='_blank'> <img  className= 'github-navbar' src='https://res.cloudinary.com/josepcortes/image/upload/v1715193228/descarga_bsktrn.png' alt=''/></NavLink>
             </li>
           </ul>
          </div>
