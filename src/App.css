@@ -127,6 +127,8 @@
 }
 
 .logo-wrapper{
+  position: relative;
+  margin-left: 55%;
   margin-right: 3%;
   margin-top: 1%;
 }
@@ -683,11 +685,16 @@ input:checked + .slider:before {
 .jobs{
   align-items: flex-start;
   justify-content: flex-start;
+  list-style: none;
 
 }
-.jobs ul{
-  margin-left:0 auto;
+.jobs-list{
+  list-style: none;
 }
+.jobs-item{
+  list-style: none;
+}
+
 .tituloExperience{
  
   text-decoration: underline;
@@ -698,6 +705,12 @@ input:checked + .slider:before {
   margin-left: 5%;
   border: 1px solid ;
   padding-bottom: 5%;
+  
+}
+
+
+.education{
+  list-style: none;
 }
 
 .background p{
@@ -792,17 +805,6 @@ input:checked + .slider:before {
   color: white;
   border: white;
   list-style: none;
-}
-
-
-
-/*Navbar*/
-
-
-
-.header nav {
-  display: none; /* Ocultar la lista de enlaces por defecto en dispositivos más pequeños */
-
 }
 
 

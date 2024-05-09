@@ -56,7 +56,7 @@ function Projects  () {
                                 <h3 className="left-swipe">SWIPE LEFT</h3>        
                                     <div className="card-inner">
                                                 <div className="card-front">
-                                                <img src="https://res.cloudinary.com/josepcortes/image/upload/v1714738909/Captura_desde_2024-05-03_14-20-12_bwsyya.png" alt="" /> 
+                                                <img src="https://res.cloudinary.com/josepcortes/image/upload/v1715215592/Captura_desde_2024-05-09_02-46-07_b1xltk.png" alt="" /> 
                                                 </div>
                                                 <div className="card-back">
                                                     <ul>
