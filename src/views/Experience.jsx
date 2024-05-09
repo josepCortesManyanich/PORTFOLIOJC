@@ -35,10 +35,10 @@ return (
                         </div>
                 </div>
 
-                <div className='background'>
+                <div className='experience1'>
                         <h2>EDUCATIONAL BACKGROUND</h2>
-                        <div className='background-container'>
-                        <ul className='education'>
+                        <div className='jobs'>
+                        <ul className='jobs-list'>
                                 <li > 
                                         <h4 className='tituloExperience'>IRONHACK BOOTCAMP, WEB DEVELOPER, MARCH 2022- OCTOBER 2022  </h4>
                                         <ul className='jobs-item'>

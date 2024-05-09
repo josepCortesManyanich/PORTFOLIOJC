@@ -696,6 +696,22 @@ input:checked + .slider:before {
  letter-spacing: 3px;
 }
 
+.experience1{
+  padding-top:3%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  padding-bottom: 3%;
+}
+
+.experience1 h2{
+ font-size: 30px;
+ text-align: center;
+ text-decoration: underline;
+ letter-spacing: 3px;
+}
+
 .jobs{
   align-items: flex-start;
   justify-content: flex-start;
@@ -714,32 +730,6 @@ input:checked + .slider:before {
   text-decoration: underline;
 }
 
-.background{
-  padding-top:3%;
-  margin-left: 5%;
-  border: 1px solid ;
-  padding-bottom: 5%;
-  
-}
-
-
-.education{
-  list-style: none;
-}
-
-.background p{
-  text-align: justify;
-  padding-right: 5%;
-  margin-right: 2%;
-  
-}
-
-.background h2{
-  font-size: 30px;
-  text-align: center;
-  text-decoration: underline;
-  letter-spacing: 3px;
-}
 
 
 
@@ -857,8 +847,8 @@ input:checked + .slider:before {
   text-align: center;
   width: 80%;
   padding-top: 20%;
-
-  margin-left: 10%; 
+  margin-left: 2%; 
+  margin-right: 5%;
 }
 
 .home-page-titles h1 {
@@ -1257,12 +1247,7 @@ input:checked + .slider:before {
   width: 400px; 
 }
 
-.card-front,
-.card-back {
-  border: 3px solid; 
-  width: 350px;
-  height: 350px;
-}
+
 .card-front img{
   width: 350px;
   height: 350px;
@@ -1270,10 +1255,16 @@ input:checked + .slider:before {
 
 .card-front {
   font-size: 12px; 
+  border: 3px solid; 
+  width: 350px;
+  height: 350px;
 }
 
 .card-back {
   font-size: 12px; 
+  border: 3px solid; 
+  width: 350px;
+  height: 400px;
 }
 
 .card-back li {
@@ -1343,7 +1334,25 @@ input:checked + .slider:before {
   margin-left: 2%;
 }
 
+.experience1 {
+  width: 95%;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  padding-right: 2%;
+  margin-top: 15%;
+  padding-left: 5%;
+  margin-left: 2%;
+}
+
 .experience h2 {
+  font-size: 24px;
+  text-align: center;
+  text-decoration: underline;
+  letter-spacing: 2px; 
+  margin-bottom: 5px; 
+}
+.experience1 h2 {
   font-size: 24px;
   text-align: center;
   text-decoration: underline;
@@ -1361,47 +1370,18 @@ input:checked + .slider:before {
   list-style: none;
 }
 
-.education{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  width: 100%;
-}
 
-.education li{
-  list-style: none;
-  
-}
+
 .tituloExperience {
   text-decoration: underline;
 }
 
-.background {
-  width: 95%;
-  border: 1px solid;
-  display: flex;
-  flex-direction: column;
-  padding-right: 2%;
-  margin-top: 15%;
-  padding-left: 5%;
-  margin-left: 2%;
-}
 
-
-
-
-.background h2 {
-  font-size: 24px; 
-  text-align: center;
-  text-decoration: underline;
-  letter-spacing: 2px; 
-  margin-bottom: 5px; 
-}
 
 
   
 } 
-@media only screen and (min-width: 500px) and (max-width: 1024px) {
+@media only screen and (min-width: 500px) and (max-width: 1100px) {
   .App{
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -1947,6 +1927,17 @@ input:checked + .slider:before {
     padding-left: 5%;
     margin-left: 2%;
   }
+    
+  .experience1 {
+    width: 95%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2%;
+    margin-top: 15%;
+    padding-left: 5%;
+    margin-left: 2%;
+  }
   
   .experience h2 {
     font-size: 24px;
@@ -1955,6 +1946,14 @@ input:checked + .slider:before {
     letter-spacing: 2px; 
     margin-bottom: 5px; 
   }
+  .experience1 h2 {
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 2px; 
+    margin-bottom: 5px; 
+  }
+  
   
   .jobs {
     width: 100%; 
@@ -1966,42 +1965,13 @@ input:checked + .slider:before {
     list-style: none;
   }
   
-  .education{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 100%;
-  }
+
   
-  .education li{
-    list-style: none;
-    
-  }
   .tituloExperience {
     text-decoration: underline;
   }
   
-  .background {
-    width: 95%;
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-    padding-right: 2%;
-    margin-top: 15%;
-    padding-left: 5%;
-    margin-left: 2%;
-  }
-  
-  
-  
-  
-  .background h2 {
-    font-size: 24px; 
-    text-align: center;
-    text-decoration: underline;
-    letter-spacing: 2px; 
-    margin-bottom: 5px; 
-  }
+
   
 }
 
@@ -2703,6 +2673,20 @@ input:checked + .slider:before {
    text-decoration: underline;
    letter-spacing: 3px;
   }
+
+  .experience1{
+    padding-top:3%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .experience1 h2{
+   font-size: 30px;
+   text-align: center;
+   text-decoration: underline;
+   letter-spacing: 3px;
+  }
   
   .jobs{
     align-items: flex-start;
@@ -2722,32 +2706,7 @@ input:checked + .slider:before {
     text-decoration: underline;
   }
   
-  .background{
-    padding-top:3%;
-    margin-left: 5%;
-    border: 1px solid ;
-    padding-bottom: 5%;
-    
-  }
-  
-  
-  .education{
-    list-style: none;
-  }
-  
-  .background p{
-    text-align: justify;
-    padding-right: 5%;
-    margin-right: 2%;
-    
-  }
-  
-  .background h2{
-    font-size: 30px;
-    text-align: center;
-    text-decoration: underline;
-    letter-spacing: 3px;
-  }
+
   
   
   
