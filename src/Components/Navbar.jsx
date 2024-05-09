@@ -58,7 +58,7 @@ function Navbar() {
                 <NavLink to="/Experience" onClick={closeMenu}> Experience</NavLink>
               </Menu.Item>
               <Menu.Item className={`menu-item1 ${white ? 'light-mode' : 'dark-mode'}`}>
-                <NavLink to='https://drive.google.com/file/d/1g6pZCuBloSlGFpWNABPNWg7jQSn7hjin/view' target="_blank">CV</NavLink>
+                <NavLink to='https://drive.google.com/file/d/1MJqJ2PbBCfho3eKEN_3LC2Qd0X6fGWdW/view?usp=sharing' target="_blank">CV</NavLink>
               </Menu.Item>
             </Menu.Items>
           </div>
