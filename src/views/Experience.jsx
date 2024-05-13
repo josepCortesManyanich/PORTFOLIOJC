@@ -15,7 +15,7 @@ return (
                         <div className='jobs'>
                             <ul className='jobs-list'>
                                 <li > 
-                                        <h4 className='tituloExperience'>AGENCIA GRÁFICA GELIS: NOVEMBER 2023 - JANUARY 2024.  </h4>
+                                        <h4 className='tituloExperience'>AGENCIA GRÁFICA GELIS: APRIL 2023 - FEBRUARY 2024.  </h4>
                                         <ul className='jobs-item'>
                                             <li><p>Workplace: Collaborator.  Senior in charge: Pere Gelis, phone number 699230125</p></li>
                                             <li><p>Website: <a href="https://www.gelis.cat/es/home-2/">www.gelis.cat.</a> </p></li>
@@ -24,7 +24,7 @@ return (
                                 </li>
                     
                                 <li className='jobs-item'> 
-                                        <h4 className='tituloExperience'>BIOS URN: APRIL 2023- SEPTEMBER 2023.  </h4> 
+                                        <h4 className='tituloExperience'>BIOS URN: JANUARY 2023- MARCH 2023.  </h4> 
                                         <ul className='jobs-item'>
                                             <li><p>Workplace: Collaborator. Senior in charge: Pere Cortés, phone number 628836801</p></li>
                                             <li><p>Website: <a href="https://urnabios.com/es/urna/">www.urnabios.com.</a> </p></li>
