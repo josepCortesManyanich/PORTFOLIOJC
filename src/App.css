@@ -565,9 +565,9 @@ input:checked + .slider:before {
 .card-back {
   position: absolute;
   width: 480px;
-  height: 470px;
+  height: 520px;
   backface-visibility: hidden;
-  margin-top: 10%;
+
 }
 
 .card-front {
@@ -1860,6 +1860,7 @@ input:checked + .slider:before {
   
   .card-back {
     font-size: 12px; 
+    height: 430px;
   }
   
   .card-back li {
@@ -2543,7 +2544,7 @@ input:checked + .slider:before {
   .card-back {
     position: absolute;
     width: 480px;
-    height: 470px;
+    height: 520px;
     backface-visibility: hidden;
     margin-top: 10%;
   }
